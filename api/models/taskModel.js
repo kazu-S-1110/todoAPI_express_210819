@@ -1,10 +1,10 @@
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var TaskSchema = new Schema({
   name: {
     type: String,
-    required: 'Taskの名前を入力してね',
+    // required: 'Taskの名前を入力してね',
   },
   Created_date: {
     type: Date,
